@@ -13,3 +13,5 @@ My data portfolio for data analyst role
 - Python programming
 - Essential Python for Data Analyst
 - Dashboard
+- 
+You can find me on linkedin
