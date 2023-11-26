@@ -1,6 +1,4 @@
 ##HW01 - 5 Questions ask about flights data set
-##modifies add comments
-##add new comments test conncet with gits
 
 view(airlines)
 ## Q1: Which five airlines traveled the most in the year 2013?
