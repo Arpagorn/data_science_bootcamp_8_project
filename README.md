@@ -2,6 +2,7 @@
 My data portfolio for data analyst role
 
 ## I have learned from data science bootcamp
+This bootcamp comprises 10 sprints to complete.;
 - Intro to data science
 - Speadsheets (google sheets)
 - Database (SQL)
@@ -13,5 +14,5 @@ My data portfolio for data analyst role
 - Python programming
 - Essential Python for Data Analyst
 - Dashboard
-- 
+ 
 You can find me on linkedin
