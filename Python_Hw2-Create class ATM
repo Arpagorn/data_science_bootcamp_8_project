@@ -1,0 +1,35 @@
+##HW2: Create class ATM with at least 5 methods transfer deposit withdraw, pay bill
+class ATM:
+    def __init__ (self, name, account_number, balance):
+        self.name = name
+        self.account_number = account_number
+        self.balance = balance
+
+#method: deposit, withdraw, transfer, balance, pay bill
+    def check_balance (self):
+        print(f"Your current balance: {self.balance}.")
+
+    def deposit(self, amount):
+        self.balance += amount
+        print(f"Deposit {amount}, New balance {self.balance}")
+
+    def withdraw(self, amount):
+        if self.balance >= amount:
+            self.balance -= amount
+            print(f"Withdraw {amount}, New balance {self.balance}")
+        else:
+            print("Insufficient money!")
+
+    def transfer(self, amount):
+        if self.balance >= amount:
+            self.balance -= amount
+            print(f"Transfer {amount}, New balance {self.balance}")
+        else:
+            print("Insufficient for transfer!")
+
+    def pay_bill(self, amount):
+        if self.balance >= amount:
+            self.balance -= amount
+            print(f"Pay_bill {amount}, New balance {self.balance}")
+        else:
+            print("insufficient for paying the bill!")
